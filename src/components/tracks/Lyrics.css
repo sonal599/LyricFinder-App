@@ -1,0 +1,89 @@
+.center-body
+{
+    width:50%;
+    margin: 0 25%;
+}
+
+.lst-items
+{
+   border: none;
+}
+
+/* coding for search box by sonali */
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin: 10px auto 10px;
+
+    width: 80%;
+}
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 3px solid #139c8e;
+    outline: 0;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+.form__label {
+    /* position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem; */
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #6f7575;
+    font-weight: 700;
+}
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+/* reset input */
+.form__field:required, .form__field:invalid {
+    box-shadow: 2px;
+}
+/* demo */
+
+/* lyrics page bottom list design  */
+
+.track_detail{
+  
+    border:none;
+    
+  }
+  .album{
+    margin:5% 10% 0;
+  }
+  .go_back{
+    margin-left: 21%;
+  }
+  
+  
