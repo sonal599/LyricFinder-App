@@ -54,9 +54,9 @@ import {Consumer} from '../../Context'
                       name="trackTitle"
                       value={this.state.trackTitle}
                       onChange={this.onChange}></input>
-                        <label for="name" className="form__label">Song Title Goes here...</label>
+                        <label for="name" className="form__label">Song Title ...</label>
                     </div>
-                    <button className="btn btn-outline-info btn-md mb-3 btn-lg "  type="submit" style={{marginLeft:'40%',backgroundColor:"", color:""}}>Get Track Lyrics
+                    <button className="btn btn-outline-info btn-md mb-3 btn-lg "  type="submit" style={{marginLeft:'40%',backgroundColor:"", color:""}}>Get Lyrics
   
                     </button>
                   </form>

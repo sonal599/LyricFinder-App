@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar'
 import  Index from './components/layout/Index'
 import  Lyrics from './components/tracks/Lyrics'
 import Footer from './components/Footer'
+import AboutUs from './components/layout/AboutUs'
 
 import {Provider} from './Context'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
@@ -17,6 +18,7 @@ function App() {
           
           <Route exact path="/" component={Index}></Route>
           <Route exact path='/lyrics/track/:id' component={Lyrics}></Route>
+          <Route exact path='/AboutUs' component={AboutUs}></Route>
 
         </Switch>
         <Footer></Footer>
